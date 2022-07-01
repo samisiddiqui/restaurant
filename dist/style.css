@@ -1,0 +1,36 @@
+body {
+    display: grid;
+    height: 100vh;
+    grid-template-rows: 3fr 98fr 1fr;
+}
+
+#nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#420420;
+    color: #B3C2F2;
+    font-family: 'Megrim', cursive;
+    font-size: clamp(12px, 8rem, 32px);
+    padding: 10px;
+}
+
+#nav > ul {
+    display: flex;
+    gap: 15px;
+}
+
+li:hover {
+    color: #3D63DE;
+}
+
+#footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#420420;
+    color: #B3C2F2;
+    font-family: 'Megrim', cursive;
+    font-size: clamp(12px, 8rem, 32px);
+    padding: 10px;
+}
