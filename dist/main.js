@@ -1,0 +1,1 @@
+(()=>{const e=document.createElement("header");e.id="header",e.innerHTML="Header";const n=document.createElement("footer");n.id="footer",n.innerHTML="Footer";const t=document.getElementById("content");t.innerHTML="Content";const o=t.parentNode;o.insertBefore(e,t),o.insertBefore(n,t.nextSibling)})();
