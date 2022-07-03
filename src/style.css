@@ -1,7 +1,9 @@
 :root {
     --text-color: #B3C2F2;
     --text-hover: #3D63DE;
+    --text-dark: #1E3FAE;
     --main-color: #420420;
+
 }
 
 body {
@@ -45,10 +47,12 @@ li:hover {
 }
 
 #content {
-    display: grid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: var(--text-color);
     width: min(100% - 2rem, 600px);
-    padding-top: 10px;
     line-height: 1.5rem;
     margin-inline: auto;
+    font-family: 'Martel', serif;
 }

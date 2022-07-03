@@ -1,5 +1,7 @@
-const home = (() => {
+function home() {
     const content = document.getElementById('content');
-    const homeDIV = document.createElement('div');
-    homeDIV.innerHTML = ``;
-})();
+    content.setAttribute('style', 'color: white');
+    content.innerHTML = `<p>World-class food, world-class atmosphere</p>`;
+};
+
+export default home;
